@@ -11,7 +11,7 @@ body{
     margin: 20px auto;
 }
 
-#header {
+#post-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,12 +46,12 @@ body{
     color: black;
 }
 
-#photo img {
+#post-photo img {
     width: 100%;
     display: block;
 }
 
-#icons {
+#post-icons {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -68,7 +68,7 @@ body{
     color: #333;
 }
 
-#comment {
+#post-body {
     padding: 10px;
     font-size: 15px;
     
