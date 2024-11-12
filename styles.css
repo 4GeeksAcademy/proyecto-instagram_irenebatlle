@@ -1,18 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 
-}
 
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
-#photo {
-    width: 500px;
-    overflow: hidden;
+#post {
+    width: 450px;
     background-color: white;
     margin: 20px auto;
 }
@@ -45,7 +39,6 @@ body{
 
 #profile-info p:last-child {
     font-size: 12px;
-    color: #666;
 }
 
 #options i {
@@ -53,7 +46,7 @@ body{
     color: black;
 }
 
-#image img {
+#photo img {
     width: 100%;
     display: block;
 }
@@ -61,26 +54,22 @@ body{
 #icons {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
 }
 
 #likecomment i {
     margin-right: 15px;
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
 }
 
 #save i {
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
 }
 
 #comment {
     padding: 10px;
-    font-size: 14px;
-}
-
-#comment p{
-    margin-bottom: 5px;
+    font-size: 15px;
+    
 }
